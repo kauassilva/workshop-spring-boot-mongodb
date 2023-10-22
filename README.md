@@ -7,6 +7,9 @@ Este repositório é uma cópia (com algumas atualizações) do repositório [wo
 
 Este projeto é uma API REST que oferece um conjunto de operações CRUD para usuários e posts. Cada usuário pode criar posts e esses posts podem ter comentários associados a eles. 
 
+![class-diagram](src/main/resources/static/docs/class-diagram.png)
+![class-diagram-impl](src/main/resources/static/docs/class-diagram-impl.png)
+
 ## Pré-requisitos
 
 - Java 8 ou superior
