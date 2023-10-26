@@ -37,14 +37,39 @@ spring.data.mongodb.uri=mongodb://localhost:27017/workshop_mongo
 ### User
 
 - `GET /api/users`: Retorna uma lista de todos os usuários.
+  
+  ![get-all-users](src/main/resources/static/docs/get-all-users.png)
+
 - `GET /api/users/{id}`: Retorna os detalhes do usuário com o ID especificado.
+
+  ![get-user-id](src/main/resources/static/docs/get-user-id.png)
+
 - `POST /api/users`: Cria um novo usuário. O corpo da solicitação deve conter os detalhes do usuário (name e email).
+
+  ![post-user](src/main/resources/static/docs/post-user.png)
+  
 - `DELETE /api/users/{id}`: Exclui o usuário com o ID especificado
+
+  ![delete-user](src/main/resources/static/docs/delete-user.png)
+
 - `PUT /api/users/{id}`: Atualiza o usuário com o ID especificado. O corpo da solicitação deve conter os novos detalhes do usuário (name e email).
+
+  ![put-user](src/main/resources/static/docs/put-user.png)
+
 - `GET /api/users/{id}/posts`: Retorna uma lista de todos os posts do usuário com o ID especificado.
+
+  ![get-all-user-posts](src/main/resources/static/docs/get-all-user-posts.png)
 
 ### Post
 
 - `GET /api/posts/{id}`: Retorna o post com o ID especificado.
+
+  ![get-post-id](src/main/resources/static/docs/get-post-id.png)
+
 - `GET /api/posts/titlesearch?text`: Retorna uma lista de todos os posts com o título especificado no cabeçalho da requisição (text).
+
+  ![get-post-title](src/main/resources/static/docs/get-post-title.png)
+  
 - `GET /api/posts/fullsearch?text&minDate&maxDate`: Retorna uma lista de todos os posts com os parâmetros atendidos no cabeçalho da requisição (text, minDate, maxDate).
+
+  ![get-post-text-mindate-maxdate](src/main/resources/static/docs/get-post-text-mindate-maxdate.png)
